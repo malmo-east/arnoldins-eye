@@ -1,0 +1,20 @@
+{
+  "name": "arnoldinseye_bot",
+  "version": "1.0.0",
+  "description": "Bot for my telegram channel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./app/index.js",
+    "dev": "nodemon ./app/index.js"
+  },
+  "author": "Arnoldin White",
+  "license": "ISC",
+  "devDependencies": {
+    "node-telegram-bot-api": "^0.30.0",
+    "nodemon": "^1.17.4"
+  },
+  "dependencies": {
+    "file-type": "^8.0.0",
+    "mongoose": "^5.1.1"
+  }
+}
